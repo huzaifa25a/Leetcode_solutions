@@ -38,7 +38,6 @@ var isValid = function(s) {
         }
         i++;
     }
-    console.log(brackets);
     if(brackets.length !== 0){
         return false;
     }
@@ -46,4 +45,4 @@ var isValid = function(s) {
 };
 
 const s = '{[()]}';
-isValid(s);
+console.log(isValid(s));
